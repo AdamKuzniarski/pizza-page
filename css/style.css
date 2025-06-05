@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-clr: #ffffff;
+  --secodary-clr: #fff4d1;
+  --btn-clr: #9e3a42;
+  --btn-sec: #f9e2af;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 150px;
+  padding: 15px 55px;
+
+  background: var(--bg-clr);
+}
+
+.middle {
+  height: 600px;
+  background-image: url('/img/aldward-castillo-Lys3krd8jck-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.middle__section{
+    padding-top: 350px;
+}
+
+/* utility classes */
+
+.fixed {
+  position: fixed;
+  top: 63px;
+  left: 0;
+}

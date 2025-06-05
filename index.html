@@ -3,14 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
     <title>another pizza page</title>
   </head>
   <body>
     <header>
       <nav>
-        <ul>
-          <h1>Logo1</h1>
+        <img class="logo" width="230" height="60" src="img/logoipsum.png" />
+        <ul class="nav-container fixed">
           <li><a href="">Startseite</a></li>
           <li><a href="">Liferando</a></li>
           <li><a href="">Bildergalerie</a></li>
@@ -21,15 +27,13 @@
       </nav>
     </header>
     <main>
-      <section>
-        <img
-          src="img/aldward-castillo-Lys3krd8jck-unsplash.jpg"
-          alt="a restraurant"
-        />
-        <h2>Pizzeria, Ristorante [yourPlace]</h2>
-        <h3>Italian Cousine</h3>
-        <button>Speisekarte</button>
-        <button>Reservieren</button>
+      <section class="middle">
+        <div class="middle__section">
+          <h2>Pizzeria, Ristorante [yourPlace]</h2>
+          <h3>Italian Cousine</h3>
+          <button>Speisekarte</button>
+          <button>Reservieren</button>
+        </div>
       </section>
       <section>
         <button>Liferando</button>
@@ -37,14 +41,18 @@
       <section>
         <img src="" alt="" />
         <div>
-            <h2>Ristorante [YourName]</h2>
-            <h4>Vorwort</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Molestiae eum tenetur earum officiis dolore inventore beatae harum, <br> aut nemo saepe similique reprehenderit iste enim necessitatibus quasi ea ducimus nes</p>
-            <a href="">zur Reservierung</a>
+          <h2>Ristorante [YourName]</h2>
+          <h4>Vorwort</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+            Molestiae eum tenetur earum officiis dolore inventore beatae harum,
+            <br />
+            aut nemo saepe similique reprehenderit iste enim necessitatibus
+            quasi ea ducimus nes
+          </p>
+          <a href="">zur Reservierung</a>
         </div>
-        <div>
-
-        </div>
+        <div></div>
       </section>
     </main>
   </body>
